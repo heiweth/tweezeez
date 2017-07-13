@@ -6,3 +6,5 @@ public_tweets = api.home_timeline()
 for tweet in public_tweets:
    # printing the text stored inside the tweet object
    print tweet.text
+   
+# tests   
