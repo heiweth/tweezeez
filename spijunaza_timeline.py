@@ -14,6 +14,5 @@ res = api.search(q=query)
 
 # foreach through all tweets pulled
 for tweet in results:
-   
    # printing the text stored inside the tweet object
    print tweet.text
